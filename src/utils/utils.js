@@ -8,26 +8,26 @@ export const projects = [
   {
     name: "Random Quote Generator",
     screenshot: quotePic,
-    href: "/random-quote-generator",
+    href: "https://dokuaasiedu.github.io/rand-quote-previewer/",
   },
   {
     name: "Markdown Previewer",
     screenshot: markPrev,
-    href: "/markdown-previewer",
+    href: "https://dokuaasiedu.github.io/markdown-previewer",
   },
   {
     name: "Drum Machine",
     screenshot: drumPrev,
-    href: "/drum-machine",
+    href: "https://dokuaasiedu.github.io/drum-machine",
   },
   {
     name: "Calculator",
     screenshot: calcPrev,
-    href: "/calculator",
+    href: "https://dokuaasiedu.github.io/calculator",
   },
   {
     name: "25 + 5 Calculator",
     screenshot: clockPrev,
-    href: "/break-session-clock",
+    href: "https://dokuaasiedu.github.io/break-session-clock",
   },
 ]

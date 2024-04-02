@@ -14,6 +14,7 @@ export default {
         granite: "#808080",
         "dark-green-blue": "#1E555C",
         "gable-green": "#13353A",
+        "antique-white": "#FAEBD7",
       },
       animation: {
         movement: "movement 10s linear 0s infinite alternate forwards",
@@ -62,6 +63,10 @@ export default {
     },
     container: {
       center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+      },
     },
   },
   plugins: [],

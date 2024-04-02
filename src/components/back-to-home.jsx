@@ -11,7 +11,7 @@ export function BackToHome({ className }) {
         className
       }>
       <IoReturnUpBack />
-      <span>Back to Home</span>
+      <span className="hidden md:block">Back to Home</span>
     </Link>
   )
 }

@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes x {
-  100% {
-    transform: translateX(calc(100vw - 5px));
-  }
-}
-@keyframes y {
-  100% {
-    transform: translateY(calc(100vh - 5px));
-  }
-}
-
-.x {
-  animation: x 13s linear infinite alternate;
-}
-
-.y {
-  animation: y 7s linear infinite alternate;
+body {
+  @apply bg-[#146A60] text-[#ffffff];
 }
