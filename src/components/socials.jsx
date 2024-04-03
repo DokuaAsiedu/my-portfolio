@@ -1,16 +1,17 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
-export function Socials() {
+export function Socials({ moreClasses }) {
   return (
-    <div>
-      <div className="container flex flex-row justify-center align-center gap-4 text-2xl">
-        <a href="https://github.com/DokuaAsiedu">
-          <FaGithub />
-        </a>
-        <a href="https://www.linkedin.com/in/a-dokua-asiedu-123224132/">
-          <FaLinkedin />
-        </a>
-      </div>
+    <div
+      className={`container flex flex-row justify-center align-center gap-2 ${moreClasses}`}>
+      <a href="https://github.com/DokuaAsiedu" target="_blank">
+        <FaGithub />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/a-dokua-asiedu-123224132/"
+        target="_blank">
+        <FaLinkedin />
+      </a>
     </div>
   )
 }

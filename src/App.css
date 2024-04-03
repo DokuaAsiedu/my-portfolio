@@ -3,5 +3,11 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#146A60] text-[#ffffff];
+  @apply bg-[#D6B78B] text-[#402E32];
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    @apply text-[18px];
+  }
 }
